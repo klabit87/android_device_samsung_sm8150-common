@@ -1,3 +1,4 @@
+/avb(/.*)?		u:object_r:avb_file:s0
 /carrier(/.*)?    u:object_r:carrier_file:s0
 /dqmdbg(/.*)?    u:object_r:dqmdbgblk_file:s0
 /keydata(/.*)?    u:object_r:keydata_data_file:s0

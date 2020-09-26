@@ -1,3 +1,6 @@
+type avb_file, fs_type;
+allow avb_file labeledfs:filesystem associate;
+
 type carrier_file, fs_type;
 allow carrier_file labeledfs:filesystem associate;
 
