@@ -101,6 +101,7 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(COMMON_PATH)/framework_manifest.xml
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 
 # Releasetools
