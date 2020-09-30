@@ -593,8 +593,6 @@
         <item>255</item>
     </integer-array>
 
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -10 V 26 H 10 V 0 H 0 Z @dp</string>
-
     <integer name="config_networkTransitionTimeout">0</integer>
     <integer name="config_ntpTimeout">3000</integer>
 
