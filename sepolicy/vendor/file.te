@@ -7,6 +7,9 @@ allow carrier_file labeledfs:filesystem associate;
 type dqmdbgblk_file, fs_type;
 allow dqmdbgblk_file labeledfs:filesystem associate;
 
+type firmware_file, fs_type;
+allow firmware_file labeledfs:filesystem associate;
+
 type keydata_data_file, fs_type;
 allow keydata_data_file labeledfs:filesystem associate;
 

@@ -9,7 +9,7 @@
 
 # Power Supply
 /sys/class/power_supply(/.*)?    u:object_r:sysfs_battery_supply:s0
-/sys/devices/platform/soc/980000.i2c/i2c-5(/.*)?    u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/soc/890000.i2c/i2c-0(/.*)?    u:object_r:sysfs_battery_supply:s0
 /sys/devices/platform/soc/soc:sec-direct-charger(/.*)?    u:object_r:sysfs_battery_supply:s0
 /sys/devices/platform/soc/soc:i2c@22/i2c-3(/.*)?    u:object_r:sysfs_battery_supply:s0
 
