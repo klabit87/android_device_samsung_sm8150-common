@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.samsung-sm8150
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0-service.samsung-sm8150
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
