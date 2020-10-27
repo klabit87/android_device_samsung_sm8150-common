@@ -18,3 +18,8 @@ allow keyrefuge_data_file labeledfs:filesystem associate;
 
 type spu_file, fs_type;
 allow spu_file labeledfs:filesystem associate;
+
+type prov_efs_file, file_type, mlstrustedobject;
+type sec_poc_file, file_type, mlstrustedobject;
+type drm_efs_file, file_type;
+type sec_efs_file, file_type, mlstrustedobject;
